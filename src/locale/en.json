@@ -1,0 +1,175 @@
+{
+  "translation": {
+    "login": {
+      "email": "Email",
+      "password": "Password",
+      "login": "Log in",
+      "title": "Log in to your account",
+      "subtitle": "Welcome back! Use your credentials to access your account",
+      "success": "You have successfully logged in!",
+      "error": "An error has occurred! Please try again"
+    },
+    "users": {
+      "register": {}
+    },
+    "roles": {
+      "list": {
+        "titlePage": "Roles",
+        "table": {
+          "name": "Name",
+          "permissionNumber": "Permissions",
+          "actions": "Actions",
+          "delete": "Delete",
+          "edit": "Edit"
+        },
+        "createRole": "Create role",
+        "addRole": "Create role"
+      },
+      "register": {
+        "titlePage": "Role registration",
+        "fields": {
+          "name": "Name",
+          "permissions": "Permissions"
+        }
+      },
+      "update": {
+        "titlePage": "Update role",
+        "fields": {
+          "name": "Name",
+          "permissions": "Permissions"
+        }
+      },
+      "actionsMessages": {
+        "delete": "Are you sure you want to delete this role?",
+        "deleteSuccess": "Role deleted successfully",
+        "deleteError": "An error has occurred. Please try again",
+        "createSuccess": "Role created successfully",
+        "createError": "An error has occurred. Please try again",
+        "updateSuccess": "Role updated successfully",
+        "updateError": "An error has occurred. Please try again"
+      },
+      "btn": {
+        "create": "Create",
+        "update": "Update"
+      }
+    },
+    "errors": {
+      "required": "This field is required",
+      "email": "Please enter a valid email",
+      "minLength": "This field must have at least {min} characters",
+      "maxLength": "This field must have a maximum of {max} characters",
+      "password": "The password must have at least 8 characters, one uppercase letter, one lowercase letter, one number, and one special character",
+      "passwordConfirmation": "Passwords do not match",
+      "phone": "Please enter a valid phone number",
+      "number": "Please enter a valid number",
+      "date": "Please enter a valid date",
+      "time": "Please enter a valid time",
+      "url": "Please enter a valid URL",
+      "minValue": "The minimum value is {min}",
+      "maxValue": "The maximum value is {max}",
+      "minDate": "The minimum date is {min}",
+      "maxDate": "The maximum date is {max}",
+      "invalid": "Please enter a valid value",
+      "invalidArray": "Please enter a valid array",
+      "invalidObject": "Please enter a valid object",
+      "invalidDate": "Please enter a valid date",
+      "invalidEmail": "Please enter a valid email",
+      "invalidURL": "Please enter a valid URL",
+      "invalidPhone": "Please enter a valid phone number",
+      "invalidNumber": "Please enter a valid number",
+      "invalidArrayLength": "The array must have {length} elements",
+      "invalidMinArrayLength": "The array must have at least {length} elements",
+      "invalidMaxArrayLength": "The array must have a maximum of {length} elements",
+      "invalidMinLength": "This field must have at least {min} characters",
+      "invalidMaxLength": "This field must have a maximum of {max} characters",
+      "invalidMinValue": "The minimum value is {min}",
+      "invalidMaxValue": "The maximum value is {max}",
+      "invalidMinDate": "The minimum date is {min}",
+      "invalidMaxDate": "The maximum date is {max}"
+    },
+    "permissions": {
+      "createFolderOrganization": "Create organization folder",
+      "createFolder": "Create folder",
+      "updateFolderOrganization": "Update organization folder",
+      "updateFolder": "Update folder",
+      "deleteFolder": "Delete folder",
+      "deleteFolderOrganization": "Delete organization folder",
+      "listFolder": "List folders",
+      "listFolderOrganization": "List organization folder",
+      "detailFolderOrganization": "Organization folder details",
+      "detailFolder": "Folder details",
+      "deleteFileOrganization": "Delete organization files",
+      "deleteFile": "Delete file",
+      "updateFile": "Update file",
+      "createFile": "Create file",
+      "createFileOrganization": "Create organization files",
+      "updateFileOrganization": "Update organization files",
+      "detailFile": "File details",
+      "listFile": "List files",
+      "detailFileOrganization": "Organization file details",
+      "listFileOrganization": "List organization files",
+      "listUser": "List users",
+      "detailUser": "User details",
+      "updateUser": "Update user",
+      "createUser": "Create user",
+      "deleteUser": "Delete user",
+      "detailOrganization": "Organization details",
+      "listOrganization": "List organizations",
+      "deleteOrganization": "Delete organization",
+      "createOrganization": "Create organization",
+      "updateOrganization": "Update organization",
+      "addUserToOrganization": "Add user to organization",
+      "removeUserFromOrganization": "Remove user from organization",
+      "viewDashboard": "View Dashboard",
+      "detailRole": "Role details",
+      "listRole": "List roles",
+      "createRole": "Create role",
+      "updateRole": "Update role",
+      "deleteRole": "Delete role"
+    },
+    "submodules": {
+      "userList": "User List",
+      "registerUser": "Register User",
+      "registerOrganization": "Register Organization",
+      "organizationList": "Organization List",
+      "roles": "Roles"
+    },
+    "modules": {
+      "folders": "Folders",
+      "files": "Files",
+      "users": "Users",
+      "organizations": "Organizations",
+      "dashboard": "Dashboard",
+      "parameters": "Parameters"
+    },
+    "routerMapPath": {
+      "/": "Login",
+      "/app/dashboard": "Dashboard",
+      "/app/folders": "Folders",
+      "/app/files": "Files",
+      "/app/organizations": "Organizations",
+      "/app/organizations/register": "Organization Registration",
+      "/app/users": "Users",
+      "/app/users/register": "User Registration",
+      "/app/parameters/roles": "Roles",
+      "/app/parameters/roles/register": "Role Registration"
+    },
+    "words": {
+      "app": "App",
+      "dashboard": "Dashboard",
+      "folders": "Folders",
+      "files": "Files",
+      "organizations": "Organizations",
+      "register": "Register",
+      "users": "Users",
+      "parameters": "Parameters",
+      "roles": "Roles",
+      "permissions": "Permissions",
+      "edit": "Edit"
+    },
+    "lang": {
+      "es": "Spanish",
+      "en": "English"
+    }
+  }
+}
