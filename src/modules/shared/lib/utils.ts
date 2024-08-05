@@ -1,6 +1,9 @@
 import * as yup from "yup";
+import { yupResolver } from "@hookform/resolvers/yup";
 import { t } from "i18next";
 import { ValueAutoComplete } from "../components/atoms/forms";
+
+export const resolver = yupResolver
 
 const validator = yup;
 

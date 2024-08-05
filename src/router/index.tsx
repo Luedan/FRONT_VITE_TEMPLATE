@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       { path: "pokemon", Component: lazy(() => import("@/modules/pokemon/pages/pokemonPage")) },
-      { path: "todo", element: <>Todo</> },
+      { path: "todo", Component: lazy(() => import("@/modules/todo/pages/todoPage")) },
     ],
   },
 ]);
