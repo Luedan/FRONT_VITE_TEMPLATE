@@ -8,6 +8,7 @@ import { createTableActions } from "@/modules/shared/utils";
 import EditTodoView from "./editTodoView";
 import { SwitchUI } from "@/modules/shared/components/atoms/forms";
 import { CustomToolbarUI } from "@/modules/shared/components/molecules/customToolbar/customToolbar";
+import { translate } from "@/modules/shared/lib/utils";
 
 export function TodoView() {
   const { todos, removeTodo, openModalEdit, handleCompleted } = useTodoStore();
@@ -15,21 +16,21 @@ export function TodoView() {
   const cols: GridColDef<Todo>[] = [
     {
       field: "id",
-      headerName: "ID",
+      headerName: translate("todo.list.id"),
       align: "center",
       headerAlign: "center",
       flex: 1,
     },
     {
       field: "title",
-      headerName: "Title",
+      headerName: translate("todo.list.title"),
       flex: 1,
       align: "center",
       headerAlign: "center",
     },
     {
       field: "completed",
-      headerName: "Completed",
+      headerName: translate("todo.list.completed"),
       flex: 1,
       align: "center",
       headerAlign: "center",
@@ -44,7 +45,7 @@ export function TodoView() {
     },
     {
       field: "actions",
-      headerName: "Acciones",
+      headerName: translate("todo.list.actions"),
       flex: 1,
       type: "actions",
       getActions: ({ row }: { row: Todo }) =>

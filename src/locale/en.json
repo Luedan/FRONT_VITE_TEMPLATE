@@ -1,58 +1,5 @@
 {
   "translation": {
-    "login": {
-      "email": "Email",
-      "password": "Password",
-      "login": "Log in",
-      "title": "Log in to your account",
-      "subtitle": "Welcome back! Use your credentials to access your account",
-      "success": "You have successfully logged in!",
-      "error": "An error has occurred! Please try again"
-    },
-    "users": {
-      "register": {}
-    },
-    "roles": {
-      "list": {
-        "titlePage": "Roles",
-        "table": {
-          "name": "Name",
-          "permissionNumber": "Permissions",
-          "actions": "Actions",
-          "delete": "Delete",
-          "edit": "Edit"
-        },
-        "createRole": "Create role",
-        "addRole": "Create role"
-      },
-      "register": {
-        "titlePage": "Role registration",
-        "fields": {
-          "name": "Name",
-          "permissions": "Permissions"
-        }
-      },
-      "update": {
-        "titlePage": "Update role",
-        "fields": {
-          "name": "Name",
-          "permissions": "Permissions"
-        }
-      },
-      "actionsMessages": {
-        "delete": "Are you sure you want to delete this role?",
-        "deleteSuccess": "Role deleted successfully",
-        "deleteError": "An error has occurred. Please try again",
-        "createSuccess": "Role created successfully",
-        "createError": "An error has occurred. Please try again",
-        "updateSuccess": "Role updated successfully",
-        "updateError": "An error has occurred. Please try again"
-      },
-      "btn": {
-        "create": "Create",
-        "update": "Update"
-      }
-    },
     "errors": {
       "required": "This field is required",
       "email": "Please enter a valid email",
@@ -87,89 +34,86 @@
       "invalidMinDate": "The minimum date is {min}",
       "invalidMaxDate": "The maximum date is {max}"
     },
-    "permissions": {
-      "createFolderOrganization": "Create organization folder",
-      "createFolder": "Create folder",
-      "updateFolderOrganization": "Update organization folder",
-      "updateFolder": "Update folder",
-      "deleteFolder": "Delete folder",
-      "deleteFolderOrganization": "Delete organization folder",
-      "listFolder": "List folders",
-      "listFolderOrganization": "List organization folder",
-      "detailFolderOrganization": "Organization folder details",
-      "detailFolder": "Folder details",
-      "deleteFileOrganization": "Delete organization files",
-      "deleteFile": "Delete file",
-      "updateFile": "Update file",
-      "createFile": "Create file",
-      "createFileOrganization": "Create organization files",
-      "updateFileOrganization": "Update organization files",
-      "detailFile": "File details",
-      "listFile": "List files",
-      "detailFileOrganization": "Organization file details",
-      "listFileOrganization": "List organization files",
-      "listUser": "List users",
-      "detailUser": "User details",
-      "updateUser": "Update user",
-      "createUser": "Create user",
-      "deleteUser": "Delete user",
-      "detailOrganization": "Organization details",
-      "listOrganization": "List organizations",
-      "deleteOrganization": "Delete organization",
-      "createOrganization": "Create organization",
-      "updateOrganization": "Update organization",
-      "addUserToOrganization": "Add user to organization",
-      "removeUserFromOrganization": "Remove user from organization",
-      "viewDashboard": "View Dashboard",
-      "detailRole": "Role details",
-      "listRole": "List roles",
-      "createRole": "Create role",
-      "updateRole": "Update role",
-      "deleteRole": "Delete role"
-    },
-    "submodules": {
-      "userList": "User List",
-      "registerUser": "Register User",
-      "registerOrganization": "Register Organization",
-      "organizationList": "Organization List",
-      "roles": "Roles"
-    },
-    "modules": {
-      "folders": "Folders",
-      "files": "Files",
-      "users": "Users",
-      "organizations": "Organizations",
-      "dashboard": "Dashboard",
-      "parameters": "Parameters"
-    },
-    "routerMapPath": {
-      "/": "Login",
-      "/app/dashboard": "Dashboard",
-      "/app/folders": "Folders",
-      "/app/files": "Files",
-      "/app/organizations": "Organizations",
-      "/app/organizations/register": "Organization Registration",
-      "/app/users": "Users",
-      "/app/users/register": "User Registration",
-      "/app/parameters/roles": "Roles",
-      "/app/parameters/roles/register": "Role Registration"
-    },
-    "words": {
-      "app": "App",
-      "dashboard": "Dashboard",
-      "folders": "Folders",
-      "files": "Files",
-      "organizations": "Organizations",
-      "register": "Register",
-      "users": "Users",
-      "parameters": "Parameters",
-      "roles": "Roles",
-      "permissions": "Permissions",
-      "edit": "Edit"
-    },
     "lang": {
       "es": "Spanish",
       "en": "English"
+    },
+    "words": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "close": "Close",
+      "accept": "Accept",
+      "reject": "Reject",
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "show": "Show",
+      "search": "Search",
+      "reset": "Reset",
+      "filter": "Filter",
+      "clear": "Clear",
+      "confirm": "Confirm",
+      "back": "Back",
+      "next": "Next",
+      "prev": "Previous",
+      "finish": "Finish",
+      "send": "Send",
+      "upload": "Upload",
+      "download": "Download",
+      "copy": "Copy",
+      "cut": "Cut",
+      "paste": "Paste",
+      "refresh": "Refresh",
+      "create": "Create",
+      "view": "View",
+      "cancelSelection": "Cancel selection",
+      "selectAll": "Select all",
+      "unselectAll": "Deselect all",
+      "select": "Select",
+      "unselect": "Deselect",
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "more": "More"
+    },
+    "tableActions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "show": "Show"
+    },
+    "home": {
+      "title": "Home",
+      "zustand": "Using Zustand (Global Store)",
+      "api": "Using an API (Calling a REST API)"
+    },
+    "todo": {
+      "list": {
+        "id": "Identifier",
+        "title": "Title",
+        "completed": "Completed",
+        "actions": "Actions"
+      },
+      "create": {
+        "titleModal": "Create Task",
+        "form": {
+          "title": "Title"
+        }
+      },
+      "edit": {
+        "titleModal": "Edit Task",
+        "form": {
+          "title": "Title"
+        }
+      }
+    },
+    "pokemon": {
+      "form": {
+        "input": "Pokemon (name or id)"
+      },
+      "card": {
+        "notFound": "Pokemon not found",
+        "id": "Identifier",
+        "name": "Name"
+      }
     }
   }
 }

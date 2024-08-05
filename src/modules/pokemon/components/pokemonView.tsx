@@ -11,6 +11,7 @@ import {
 import { useState } from "react";
 import { useDebouncedCallback } from "use-debounce";
 import { useGetPokemon } from "../hooks/useGetPokemon";
+import { translate } from "@/modules/shared/lib/utils";
 
 export function PokemonView() {
   const [pokemon, setPokemon] = useState<string>("");
@@ -40,7 +41,7 @@ export function PokemonView() {
         }}
       >
         <TextFieldUI
-          label="Pokemon (Nombre o Id)"
+          label={translate("pokemon.form.input")}
           onChange={useDebouncedCallback(handleChange, 500)}
           InputProps={{
             endAdornment: <Search color="primary" />,
@@ -68,7 +69,7 @@ export function PokemonView() {
               component="div"
               sx={{ textTransform: "capitalize" }}
             >
-              id: {data.id}
+              {translate('pokemon.card.id')}: {data.id}
             </Typography>
             <Typography
               gutterBottom
@@ -76,7 +77,7 @@ export function PokemonView() {
               component="div"
               sx={{ textTransform: "capitalize" }}
             >
-              Nombre: {data.name}
+              {translate('pokemon.card.name')}: {data.name}
             </Typography>
           </CardContent>
         </Card>
@@ -91,7 +92,7 @@ export function PokemonView() {
           }}
         >
           <Typography variant="h6" component="div">
-            No se ha encontrado el Pokemon
+            {translate("pokemon.card.notFound")}
           </Typography>
         </PaperUI>
       )}

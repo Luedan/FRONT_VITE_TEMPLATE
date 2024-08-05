@@ -79,6 +79,41 @@
       "edit": "Editar",
       "delete": "Eliminar",
       "show": "Ver"
+    },
+    "home": {
+      "title": "Inicio",
+      "zustand": "Uso de Zustand (Tienda global)",
+      "api": "Uso de una API (llamar a una API REST)"
+    },
+    "todo": {
+      "list": {
+        "id": "Identificador",
+        "title": "Título",
+        "completed": "Completado",
+        "actions": "Acciones"
+      },
+      "create": {
+        "titleModal": "Crear Tarea",
+        "form": {
+          "title": "Título"
+        }
+      },
+      "edit": {
+        "titleModal": "Editar Tarea",
+        "form": {
+          "title": "Título"
+        }
+      }
+    },
+    "pokemon": {
+      "form": {
+        "input": "Pokemon (nombre o id)"
+      },
+      "card": {
+        "notFound": "No se ha encontrado el Pokemon",
+        "id": "Identificador",
+        "name": "Nombre"
+      }
     }
   }
 }

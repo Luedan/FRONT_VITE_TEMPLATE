@@ -3,7 +3,7 @@ import { ControlledTextFieldUI } from "@/modules/shared/components/atoms/forms";
 import { ModalUI } from "@/modules/shared/components/atoms/modal/modal";
 import { TypographyUI } from "@/modules/shared/components/atoms/typography/typography";
 import { ButtonActionUI } from "@/modules/shared/components/molecules/buttonAction/buttonAction";
-import { resolver, validator } from "@/modules/shared/lib/utils";
+import { resolver, translate, validator } from "@/modules/shared/lib/utils";
 import { Close } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import { useForm } from "react-hook-form";
@@ -11,7 +11,7 @@ import { useTodoStore } from "../store/todoStore";
 
 export default function EditTodoView() {
   const schema = validator.object().shape({
-    title: validator.string().required("Este campo es requerido"),
+    title: validator.string().required(translate("errors.required")),
   });
 
   const { updateTodo, todoToEdit, closeModalEdit, isOpenModalEdit } =
@@ -53,7 +53,7 @@ export default function EditTodoView() {
           }}
         >
           <TypographyUI variant="h5" sx={{ alignSelf: "flex-start" }}>
-            Actualizar Todo
+            {translate("todo.edit.titleModal")}
           </TypographyUI>
           <IconButton onClick={closeModalEdit}>
             <Close color="error" />
@@ -62,13 +62,13 @@ export default function EditTodoView() {
         <ControlledTextFieldUI
           control={control}
           name="title"
-          label="Titulo"
+          label={translate("todo.edit.form.title")}
           error={!!errors.title}
           helperText={errors.title?.message}
           sx={{ width: "90%", marginTop: "10px" }}
         />
         <ButtonActionUI
-          text="Guardar"
+          text={translate("words.save")}
           actionType="edit"
           sx={{ marginTop: "10px", width: "90%" }}
           variant="outlined"
