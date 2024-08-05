@@ -22,8 +22,8 @@ export function HomeView() {
         <TypographyUI variant="h3">Home</TypographyUI>
         <Divider />
       </BoxUI>
-      <ButtonUI onClick={() => navigate("/app/pokemon")}>Pokemon <ArrowForward /></ButtonUI>
-      <ButtonUI onClick={() => navigate("/app/todo")}>Todo <ArrowForward /></ButtonUI>
+      <ButtonUI onClick={() => navigate("/app/pokemon")}>Pokemon (Test API) <ArrowForward /></ButtonUI>
+      <ButtonUI onClick={() => navigate("/app/todo")}>Todo (Test Zustand) <ArrowForward /></ButtonUI>
     </BoxUI>
   );
 }
