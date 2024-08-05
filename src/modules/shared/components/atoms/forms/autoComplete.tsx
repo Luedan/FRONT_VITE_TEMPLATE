@@ -28,7 +28,6 @@ export const AutocompleteUI = ({
   autoCompleteProps,
   ...props
 }: AutocompleteUIProps) => {
-  console.log();
   return (
     <Autocomplete
       renderInput={(params) => (
@@ -67,7 +66,9 @@ export function ControlledAutoCompleteUI(props: ControlledAutoCompleteProps) {
       render={({ field: { value, ref, onChange, ...field } }) => (
         <Autocomplete
           {...field}
-          {...(Value?.value ? { value: options.find((o) => o.value === Value.value) } : {})}
+          {...(Value?.value
+            ? { value: options.find((o) => o.value === Value.value) }
+            : {})}
           size="small"
           fullWidth
           options={options}
