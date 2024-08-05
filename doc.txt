@@ -1,0 +1,139 @@
+.
+├── docker-compose.yml
+├── Dockerfile
+├── index.html
+├── nginx
+│   └── nginx.conf
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.js
+├── public
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── locale
+│   │   ├── en.json
+│   │   ├── es.json
+│   │   └── i18n.ts
+│   ├── main.css
+│   ├── main.tsx
+│   ├── modules
+│   │   ├── core
+│   │   │   └── components
+│   │   │       └── layout
+│   │   │           ├── asideHeader.tsx
+│   │   │           ├── aside.tsx
+│   │   │           ├── changeLang.tsx
+│   │   │           ├── drawer.tsx
+│   │   │           ├── header.tsx
+│   │   │           ├── layout.tsx
+│   │   │           └── menu.tsx
+│   │   ├── home
+│   │   │   ├── components
+│   │   │   │   └── homeView.tsx
+│   │   │   └── pages
+│   │   │       └── homePage.tsx
+│   │   ├── pokemon
+│   │   │   ├── components
+│   │   │   │   └── pokemonView.tsx
+│   │   │   ├── hooks
+│   │   │   │   └── useGetPokemon.tsx
+│   │   │   ├── pages
+│   │   │   │   └── pokemonPage.tsx
+│   │   │   └── services
+│   │   │       ├── getPokemon.ts
+│   │   │       └── types.d.ts
+│   │   ├── shared
+│   │   │   ├── components
+│   │   │   │   ├── atoms
+│   │   │   │   │   ├── accordion
+│   │   │   │   │   │   └── accordion.tsx
+│   │   │   │   │   ├── box
+│   │   │   │   │   │   └── box.tsx
+│   │   │   │   │   ├── button
+│   │   │   │   │   │   └── button.tsx
+│   │   │   │   │   ├── card
+│   │   │   │   │   │   └── card.tsx
+│   │   │   │   │   ├── containers
+│   │   │   │   │   │   ├── componentContainer.tsx
+│   │   │   │   │   │   └── containerGrid.tsx
+│   │   │   │   │   ├── forms
+│   │   │   │   │   │   ├── autoComplete.tsx
+│   │   │   │   │   │   ├── checkbox.tsx
+│   │   │   │   │   │   ├── datePicker.tsx
+│   │   │   │   │   │   ├── index.tsx
+│   │   │   │   │   │   ├── input.tsx
+│   │   │   │   │   │   ├── radioGroup.tsx
+│   │   │   │   │   │   ├── select.tsx
+│   │   │   │   │   │   ├── switch.tsx
+│   │   │   │   │   │   └── types.d.ts
+│   │   │   │   │   ├── grid
+│   │   │   │   │   │   └── grid.tsx
+│   │   │   │   │   ├── img
+│   │   │   │   │   │   └── img.tsx
+│   │   │   │   │   ├── loading
+│   │   │   │   │   │   ├── index.tsx
+│   │   │   │   │   │   └── styled.css
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   └── modal.tsx
+│   │   │   │   │   ├── paper
+│   │   │   │   │   │   └── paper.tsx
+│   │   │   │   │   ├── table
+│   │   │   │   │   │   └── table.tsx
+│   │   │   │   │   ├── titles
+│   │   │   │   │   │   └── titlePage.tsx
+│   │   │   │   │   ├── toast
+│   │   │   │   │   │   └── toast.tsx
+│   │   │   │   │   └── typography
+│   │   │   │   │       └── typography.tsx
+│   │   │   │   └── molecules
+│   │   │   │       ├── buttonAction
+│   │   │   │       │   ├── buttonAction.tsx
+│   │   │   │       │   └── type.d.ts
+│   │   │   │       ├── customCard
+│   │   │   │       │   └── customCard.tsx
+│   │   │   │       ├── customSwitch
+│   │   │   │       │   └── customSwitch.tsx
+│   │   │   │       ├── customToolbar
+│   │   │   │       │   └── customToolbar.tsx
+│   │   │   │       ├── modalCofirm
+│   │   │   │       │   ├── modalConfirm.tsx
+│   │   │   │       │   └── types.d.ts
+│   │   │   │       └── tablePro
+│   │   │   │           └── tablePro.tsx
+│   │   │   ├── hooks
+│   │   │   │   └── useModal.tsx
+│   │   │   ├── lib
+│   │   │   │   ├── http
+│   │   │   │   │   └── index.ts
+│   │   │   │   ├── theme
+│   │   │   │   │   ├── index.ts
+│   │   │   │   │   ├── provider.tsx
+│   │   │   │   │   ├── store.tsx
+│   │   │   │   │   └── theme.tsx
+│   │   │   │   ├── types.d.ts
+│   │   │   │   └── utils.ts
+│   │   │   └── utils
+│   │   │       ├── index.tsx
+│   │   │       └── types.d.ts
+│   │   └── todo
+│   │       ├── components
+│   │       │   ├── addTodoView.tsx
+│   │       │   ├── editTodoView.tsx
+│   │       │   ├── todoView.tsx
+│   │       │   └── types.d.ts
+│   │       ├── pages
+│   │       │   └── todoPage.tsx
+│   │       └── store
+│   │           ├── todoStore.tsx
+│   │           └── types.d.ts
+│   ├── router
+│   │   └── index.tsx
+│   └── vite-env.d.ts
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+51 directories, 86 files

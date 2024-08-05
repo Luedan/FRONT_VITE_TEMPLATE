@@ -1,0 +1,7 @@
+version: '3'
+services:
+  front_template:
+    build:
+      context: .
+    ports:
+      - 3000:80
